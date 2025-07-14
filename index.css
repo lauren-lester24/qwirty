@@ -1,0 +1,255 @@
+
+*{
+  
+  font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+
+
+ 
+body {
+  background-color: #eee;
+}
+.top-left {
+  margin-right: 190px;
+}
+.top-right{
+  margin-left: 670px;
+}
+.top-nav {
+display: flex;
+flex-wrap: wrap;
+
+
+ list-style: none;
+ background-color: #44b;
+  padding: 20px;
+ 
+ 
+
+
+}
+
+.container {
+  
+}
+
+
+li a {
+  color: white;
+text-decoration: none;
+ padding: 3px;
+ border-right: 1px solid white;
+ align-items: center;
+
+}
+
+
+.signin-nav {
+
+
+}
+
+.button-top {
+  cursor: pointer;
+
+}
+
+.button-top:hover {
+
+text-decoration: underline;
+
+}
+.search {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ justify-content: center;
+}
+
+.brand {
+display: block;
+    color: #44b;
+    font-size: 35px;
+    padding: 1rem;
+    font-weight: 500;
+    margin-left: 0px;
+}
+
+
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+ width: 100%;
+ max-width: 900px;
+margin-right: 10px;
+
+
+}
+
+.financing {
+  background-color: rgb(223, 18, 18);
+  color: white;
+  padding: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px;
+ 
+outline: none;
+}
+
+
+
+
+
+.text {
+  width: 800px;
+}
+
+
+  
+
+ul li {
+    color: white;
+ 
+ background-color: #44b;
+ padding: .5rem;
+ margin-right: 0px;
+ margin-bottom: 4.5px;
+ margin-right: 4.5px ;
+ text-transform: uppercase;
+ width: 200px;
+ height: 20px;
+ text-decoration: none;
+ 
+
+  }
+
+ul {
+
+   list-style: none;
+   text-decoration: none;
+
+
+
+}
+aside {
+
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+.button:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+#container
+{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+margin-left: 0px;
+
+overflow: hidden;
+
+}
+
+
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.write {
+  padding: 9PX;
+  }
+  
+
+
+.product-card {
+display: flex;
+  flex-direction: column;
+   width: 250px;
+height: 100%;
+max-height: 400px;
+padding-bottom: 8px;
+padding-left: 8px;
+
+}
+img {
+  height: 100px;
+}
+
+
+.product {
+padding: 15px;
+background-color: #44b;
+color: white;
+    
+
+}
+
+.price {
+
+    background-color: #44b;
+    color: white;
+    padding: 20px;
+}
+
+#footer {
+  background-color: #44b;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+
+.title-footer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: solid white;
+  align-items: center;
+ 
+}
+
+
+.section-footer
+   {
+padding: 40px;
+    list-style: none;
+   }
+
+
+ 
+ li {
+padding-top: 8px;
+ }
+   
+  
+   .closing-footer {
+    font-weight: lighter;
+    cursor: pointer;
+    
+    
+   } 
+
+
+.closing-footer:hover {
+
+text-decoration: underline;
+}
